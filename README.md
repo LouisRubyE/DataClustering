@@ -29,3 +29,12 @@ The Davies-Bouldin index measures the average similarity between each cluster an
 
 ### 4. Adjusted Rand Index (ARI)
 The adjusted Rand index assesses the similarity between the predicted clustering and the ground truth labels (if available). It ranges from -1 to 1, where 1 indicates perfect clustering agreement with the ground truth labels.
+
+# Clustering Evaluation Scores
+
+| Metric                     | KMeans     | Gaussian Mixture Model | Agglomerative Clustering  |
+|----------------------------|------------|------------------------|---------------------------|
+| Silhouette Score           | 0.7916     | 0.7916                 | 0.7916                    |
+| Calinski-Harabasz Index    | 11066.9713 | 11066.9713             | 11066.9713                |
+| Davies-Bouldin Index       | 0.2923     | 0.2923                 | 0.2923                    |
+| Adjusted Rand Index        | -0.0007    | -0.0007                | -0.0007                   |
